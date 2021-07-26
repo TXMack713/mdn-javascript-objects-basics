@@ -29,6 +29,15 @@ section.appendChild(para2);
 let bandInfo;
 
 // Add your code here
+bandInfo = {
+  name: 'Mercy Me',
+  nationality: 'USA',
+  genre: 'Christian',
+  members: '4',
+  formed: ' 1996',
+  split: 'false',
+  albums: [{name: '', released: ''}];
+}
 
 // Don't edit the code below here!
 
