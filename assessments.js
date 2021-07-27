@@ -36,8 +36,8 @@ bandInfo = {
   members: '4',
   formed: ' 1996',
   split: 'false',
-  albums: [{name: '', released: ''}];
-}
+  albums: [{ name: '', released: '' }]
+};
 
 // Don't edit the code below here!
 
