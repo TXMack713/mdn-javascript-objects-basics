@@ -77,3 +77,9 @@ let person1 = new Person('Tammi', 'Smith', 32, 'neutral', [
   'skiing',
   'kickboxing'
 ]);
+
+Person.prototype.farewell = function() {
+  alert(this.name.first + ' has left the building. Bye for now!');
+};
+
+Person.prototype.fullName = this.name.first + ' ' + this.name.last;
