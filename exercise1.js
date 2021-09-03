@@ -4,9 +4,9 @@
 function getRGB(hex) {
   let array = hex.split('');
   array.shift();
-  let r = '';
-  let g = '';
-  let b = '';
+  let r = '0x';
+  let g = '0x';
+  let b = '0x';
   for (let i = 0; i < array.length; i++) {
     if (i < 2) {
       r += array[i];
@@ -16,10 +16,10 @@ function getRGB(hex) {
       b += array[i];
     }
   }
-  r *= 1;
-  g *= 1;
-  b *= 1;
   console.log(
-    'rgb(' + 0 + 'x' + r + ',' + 0 + 'x' + g + ',' + 0 + 'x' + b + ')'
+    'rgb(' + parseInt(r) + ',' + parseInt(g) + ',' + parseInt(b) + ')'
   );
 }
+
+getRGB('#00FF00');
+getRGB('#efff32');
